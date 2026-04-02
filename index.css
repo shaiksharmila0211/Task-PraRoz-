@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+.logo{
+    color:orange;
+    font-size:28px;
+    font-weight:bold;
+}
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+body{
+    background:url('https://images.wallpapersden.com/image/download/tree-reflection-water_ZmpqbGeUmZqaraWkpJRnbW1lrWZtZWU.jpg')no-repeat center center/cover;
+    height:100vh; 
+    color:white;
+}
+.search-box input{
+    padding:5px;
+}
+.search-box button{
+    background:orange;
+    border:none;
+    padding:6px 10px;
+    cursor:pointer;
+}
+.main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+}
+.content{
+    width:50%;
+}
+
+.content h1{
+    font-size:45px;
+    font-style:times;
+} 
+
+.content span{
+    color:orange;
+    font-size:55px;
+}
+
+.content p{
+    margin:20px 0;
+    line-height:1.6;
+}
+
+.join-btn{
+    background:orange;
+    border:none;
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+}
+.login-box{
+    width:300px;
+    background:rgba(0,0,0,0.8);
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.login-box h2{
+    margin-bottom:15px;
+    color:orange;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+}
+
+.login-btn{
+    width:100%;
+    padding:10px;
+    background:orange;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.link{
+    margin:15px 0;
+}
+
+.link a{
+    color:orange;
+    text-decoration:none;
+}
+
+.icons span{
+    margin:5px;
+    padding:8px;
+    border:1px solid white;
+    border-radius:50%;
+    cursor:pointer;
+}
